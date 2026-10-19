@@ -9,9 +9,6 @@
 
 #define F_CPU 8000000UL
 
-#define TEST_SYMBOL 8U
-#define SCAN_DELAY_MS 2.0
-#define STEP_DELAY_MS 250U
 
 
 unsigned char number[8] = {1, 2, 3, 4, 5, 6, 7, 8};
