@@ -18,7 +18,7 @@ void delay_ms(unsigned int milliseconds)
     volatile unsigned int i;
 
     while (milliseconds > 0) {
-        for (i = 0; i < 2000; i++) {
+        for (i = 0; i < (F_CPU/1000); i++) {
         }
 
         milliseconds--;
